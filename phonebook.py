@@ -3,5 +3,12 @@ phonebook_dict = {
   'Bob': '857-384-1234',
   'Elizabeth': '484-584-2923'
 }
+#print only Elizabeth's phone number not name.
+print(phonebook_dict["Elizabeth"])
 
-print(phonebook_dict["Alice"])
+phonebook_dict.update("Bob", "")
+print(phonebook_dict)
+
+
+
+
